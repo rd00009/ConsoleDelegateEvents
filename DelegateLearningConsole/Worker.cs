@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DelegateLearningConsole
 {
     public delegate void WorkedPerformedHandler(int hour, WorkType WorkType);
-
+    public delegate int BizRuleDelegate(int x, int y);
     public class Worker
     {
         //public event WorkedPerformedHandler WorkPerformed;
